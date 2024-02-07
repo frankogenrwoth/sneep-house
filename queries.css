@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Pacifico&display=swap');
+
+/* for screen less than 1026px*/
+@media screen and (max-width:1026px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* 
+    font-family: 'Pacifico', cursive;
+     */
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: #432818;
+        font-weight: 500;
+        transition: 1s;
+    }
+
+    .catalog {
+        padding: 2rem;
+        font-size: 1.6rem;
+    }
+    #img3 {
+        align-self: center;
+        object-fit: cover;
+        height: 100%;
+        display: none;
+    }
+    .subscribe {
+        background-color: #eee2df;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    
+    }
+    .contact-us img {
+        height: 35vh;
+        width: 40%;
+    }
+    .subscribe img {
+        width: 50%;
+    }
+    footer {
+        background-color: #eee2df;
+        margin-top: 2rem;
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+    }
+    footer {
+        background-color: #eee2df;
+        margin-top: 4rem;
+    }
+    
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+/* for screen less than 820px*/
+@media screen and (max-width: 820px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* 
+    font-family: 'Pacifico', cursive;
+     */
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: #432818;
+        font-weight: 500;
+        transition: 1s;
+    }
+
+    .catalog {
+        padding: 2rem;
+        font-size: 1.6rem;
+    }
+
+    #img2 {
+        align-self: flex-end;
+        object-fit: cover;
+        height: 40vh;
+    }
+    
+    #img3 {
+        align-self: center;
+        object-fit: cover;
+        height: 100%;
+        display: none;
+    }
+    .catalog {
+        padding: 2rem;
+        font-size: 1.6rem;
+        padding: 2rem;
+        padding: 6rem 4rem;
+    
+    }
+    .subscribe {
+        background-color: #eee2df;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    
+    }
+    .contact-us img {
+        height: 35vh;
+        width: 40%;
+    }
+    .subscribe img {
+        width: 50%;
+    }
+    footer {
+        background-color: #eee2df;
+        margin-top: 2rem;
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+    }
+    footer {
+        background-color: #eee2df;
+        margin-top: 4rem;
+    }
+    
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+}
